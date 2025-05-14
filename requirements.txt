@@ -1,0 +1,17 @@
+# Core data stack
+pandas
+numpy
+matplotlib
+scikit-learn
+statsmodels
+jupyter
+
+# Airflow (pin a stable version, e.g. 2.7.3)
+apache-airflow==2.7.3
+
+# AWS SDK
+boto3
+
+# FastAPI + server
+fastapi
+uvicorn[standard]
