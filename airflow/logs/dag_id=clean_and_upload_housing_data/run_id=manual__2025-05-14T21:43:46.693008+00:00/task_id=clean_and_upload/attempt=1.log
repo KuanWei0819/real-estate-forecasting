@@ -1,0 +1,16 @@
+[2025-05-14T21:43:47.469+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clean_and_upload_housing_data.clean_and_upload manual__2025-05-14T21:43:46.693008+00:00 [queued]>
+[2025-05-14T21:43:47.472+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clean_and_upload_housing_data.clean_and_upload manual__2025-05-14T21:43:46.693008+00:00 [queued]>
+[2025-05-14T21:43:47.472+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-05-14T21:43:47.477+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): clean_and_upload> on 2025-05-14 21:43:46.693008+00:00
+[2025-05-14T21:43:47.480+0000] {standard_task_runner.py:57} INFO - Started process 6991 to run task
+[2025-05-14T21:43:47.484+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'clean_and_upload_housing_data', 'clean_and_upload', 'manual__2025-05-14T21:43:46.693008+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/clean_housing_data.py', '--cfg-path', '/tmp/tmpsuw1bhcf']
+[2025-05-14T21:43:47.489+0000] {standard_task_runner.py:85} INFO - Job 14: Subtask clean_and_upload
+[2025-05-14T21:43:47.529+0000] {task_command.py:416} INFO - Running <TaskInstance: clean_and_upload_housing_data.clean_and_upload manual__2025-05-14T21:43:46.693008+00:00 [running]> on host 3e4a09dca0cc
+[2025-05-14T21:43:47.561+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='clean_and_upload_housing_data' AIRFLOW_CTX_TASK_ID='clean_and_upload' AIRFLOW_CTX_EXECUTION_DATE='2025-05-14T21:43:46.693008+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-14T21:43:46.693008+00:00'
+[2025-05-14T21:43:47.603+0000] {logging_mixin.py:154} INFO - ✅ Cleaned data saved to: /opt/***/data/clean/Housing_cleaned.csv
+[2025-05-14T21:43:47.615+0000] {credentials.py:1124} INFO - Found credentials in environment variables.
+[2025-05-14T21:43:47.855+0000] {logging_mixin.py:154} INFO - ✅ Uploaded /opt/***/data/clean/Housing_cleaned.csv to s3://realestateforecasting/clean/Housing_cleaned.csv
+[2025-05-14T21:43:47.856+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-05-14T21:43:47.866+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clean_and_upload_housing_data, task_id=clean_and_upload, execution_date=20250514T214346, start_date=20250514T214347, end_date=20250514T214347
+[2025-05-14T21:43:47.880+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-05-14T21:43:47.889+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
