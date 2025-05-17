@@ -16,9 +16,10 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
-    - ../src:/opt/airflow/src 
-    - ../data:/opt/airflow/data 
-
+    - ../src:/opt/airflow/src
+    - ../data:/opt/airflow/data
+    - ../models:/opt/airflow/models
+    - ../requirements.txt:/requirements.txt
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     - postgres
@@ -37,17 +38,27 @@ services:
     <<: *airflow-common
     ports:
       - "8080:8080"
-    command: webserver
+    command: >
+      bash -c "pip install -r /requirements.txt && airflow webserver"
 
   airflow-scheduler:
     <<: *airflow-common
-    command: scheduler
+    command: >
+      bash -c "pip install -r /requirements.txt && airflow scheduler"
 
   airflow-init:
     <<: *airflow-common
     entrypoint: /bin/bash
     command: >
-      -c "airflow db init && airflow users create --username airflow --password airflow --firstname Air --lastname Flow --role Admin --email airflow@example.com"
+      -c "pip install -r /requirements.txt && \
+          airflow db init && \
+          airflow users create \
+            --username airflow \
+            --password airflow \
+            --firstname Air \
+            --lastname Flow \
+            --role Admin \
+            --email airflow@example.com"
 
 volumes:
   postgres-db-volume:

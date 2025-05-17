@@ -1,0 +1,15 @@
+[2025-05-15T21:25:33.752+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_and_upload_model.upload_model_to_s3 manual__2025-05-15T21:25:31.333711+00:00 [queued]>
+[2025-05-15T21:25:33.755+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_and_upload_model.upload_model_to_s3 manual__2025-05-15T21:25:31.333711+00:00 [queued]>
+[2025-05-15T21:25:33.756+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-05-15T21:25:33.761+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): upload_model_to_s3> on 2025-05-15 21:25:31.333711+00:00
+[2025-05-15T21:25:33.764+0000] {standard_task_runner.py:57} INFO - Started process 374 to run task
+[2025-05-15T21:25:33.766+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'train_and_upload_model', 'upload_model_to_s3', 'manual__2025-05-15T21:25:31.333711+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/train_and_upload_model.py', '--cfg-path', '/tmp/tmpc2jxbky7']
+[2025-05-15T21:25:33.768+0000] {standard_task_runner.py:85} INFO - Job 24: Subtask upload_model_to_s3
+[2025-05-15T21:25:33.786+0000] {task_command.py:416} INFO - Running <TaskInstance: train_and_upload_model.upload_model_to_s3 manual__2025-05-15T21:25:31.333711+00:00 [running]> on host 2f09b8ebec3e
+[2025-05-15T21:25:33.814+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='train_and_upload_model' AIRFLOW_CTX_TASK_ID='upload_model_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2025-05-15T21:25:31.333711+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-15T21:25:31.333711+00:00'
+[2025-05-15T21:25:33.821+0000] {credentials.py:1124} INFO - Found credentials in environment variables.
+[2025-05-15T21:25:34.130+0000] {logging_mixin.py:154} INFO - ✅ Uploaded /opt/***/models/housing_price_model.pkl to s3://realestateforecasting/models/housing_price_model.pkl
+[2025-05-15T21:25:34.131+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-05-15T21:25:34.140+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=train_and_upload_model, task_id=upload_model_to_s3, execution_date=20250515T212531, start_date=20250515T212533, end_date=20250515T212534
+[2025-05-15T21:25:34.185+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-05-15T21:25:34.196+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
