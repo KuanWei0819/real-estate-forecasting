@@ -31,6 +31,12 @@ load_dotenv()
 
 app = FastAPI()
 
+
+@app.get("/")
+def home():
+    return {"message": "Backend is live!"}
+
+
 # Log current IAM identity (optional for debugging)
 sts = boto3.client("sts")
 print("IAM identity being used:", sts.get_caller_identity())
