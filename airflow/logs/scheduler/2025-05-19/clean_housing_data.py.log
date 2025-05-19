@@ -1762,3 +1762,115 @@
 [2025-05-19T04:20:31.000+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:20:31.000+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-19T04:20:31.061+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:20:31.061+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
 [2025-05-19T04:20:31.080+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.408 seconds
+[2025-05-19T04:21:01.645+0000] {processor.py:157} INFO - Started process (PID=86207) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:21:01.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:21:01.649+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:01.649+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:21:01.822+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:21:01.840+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:01.840+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:21:01.852+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:01.852+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:21:01.867+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.230 seconds
+[2025-05-19T04:21:32.571+0000] {processor.py:157} INFO - Started process (PID=86238) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:21:32.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:21:32.577+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:32.574+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:21:32.836+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:21:32.868+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:32.868+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:21:32.891+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:32.891+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:21:32.914+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.349 seconds
+[2025-05-19T04:22:03.468+0000] {processor.py:157} INFO - Started process (PID=86269) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:22:03.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:22:03.470+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:03.470+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:22:03.738+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:22:03.795+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:03.794+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:22:03.815+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:03.815+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:22:03.830+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.369 seconds
+[2025-05-19T04:22:34.451+0000] {processor.py:157} INFO - Started process (PID=86300) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:22:34.452+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:22:34.452+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:34.452+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:22:34.720+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:22:34.764+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:34.763+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:22:34.790+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:34.790+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:22:34.809+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.364 seconds
+[2025-05-19T04:23:05.453+0000] {processor.py:157} INFO - Started process (PID=86331) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:23:05.455+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:23:05.456+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:05.456+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:23:05.730+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:23:05.765+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:05.765+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:23:05.793+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:05.793+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:23:05.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.384 seconds
+[2025-05-19T04:23:36.349+0000] {processor.py:157} INFO - Started process (PID=86362) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:23:36.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:23:36.354+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:36.353+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:23:36.610+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:23:36.643+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:36.643+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:23:36.680+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:36.680+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:23:36.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.365 seconds
+[2025-05-19T04:24:07.262+0000] {processor.py:157} INFO - Started process (PID=86393) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:24:07.264+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:24:07.265+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:07.265+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:24:07.426+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:24:07.450+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:07.449+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:24:07.461+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:07.461+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:24:07.500+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.243 seconds
+[2025-05-19T04:24:38.117+0000] {processor.py:157} INFO - Started process (PID=86424) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:24:38.118+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:24:38.120+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:38.119+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:24:38.408+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:24:38.443+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:38.443+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:24:38.471+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:38.470+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:24:38.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.382 seconds
+[2025-05-19T04:25:09.159+0000] {processor.py:157} INFO - Started process (PID=86455) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:25:09.161+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:25:09.162+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:09.161+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:25:09.446+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:25:09.480+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:09.480+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:25:09.501+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:09.499+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:25:09.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.366 seconds
+[2025-05-19T04:25:40.178+0000] {processor.py:157} INFO - Started process (PID=86486) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:25:40.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:25:40.183+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:40.182+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:25:40.451+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:25:40.510+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:40.510+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:25:40.539+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:40.539+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:25:40.550+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.383 seconds
+[2025-05-19T04:26:11.156+0000] {processor.py:157} INFO - Started process (PID=86517) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:26:11.159+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:26:11.160+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:11.159+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:26:11.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:26:11.508+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:11.508+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:26:11.528+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:11.528+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:26:11.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.389 seconds
+[2025-05-19T04:26:42.268+0000] {processor.py:157} INFO - Started process (PID=86548) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:26:42.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:26:42.275+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:42.274+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:26:42.546+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:26:42.591+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:42.591+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:26:42.639+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:42.639+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:26:42.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.395 seconds
+[2025-05-19T04:27:13.327+0000] {processor.py:157} INFO - Started process (PID=86579) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:27:13.329+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:27:13.330+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:13.330+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:27:13.598+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:27:13.630+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:13.630+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:27:13.651+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:13.651+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:27:13.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.364 seconds
+[2025-05-19T04:27:44.263+0000] {processor.py:157} INFO - Started process (PID=86610) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:27:44.270+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:27:44.273+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:44.272+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:27:44.565+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:27:44.626+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:44.625+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:27:44.649+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:44.649+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:27:44.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.409 seconds
+[2025-05-19T04:28:15.237+0000] {processor.py:157} INFO - Started process (PID=86641) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:28:15.239+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:28:15.240+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:15.239+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:28:15.568+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:28:15.653+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:15.653+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:28:15.672+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:15.672+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:28:15.683+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.453 seconds
+[2025-05-19T04:28:46.264+0000] {processor.py:157} INFO - Started process (PID=86672) to work on /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:28:46.265+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/clean_housing_data.py for tasks to queue
+[2025-05-19T04:28:46.266+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:46.266+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:28:46.563+0000] {processor.py:839} INFO - DAG(s) dict_keys(['clean_and_upload_housing_data']) retrieved from /opt/airflow/dags/clean_housing_data.py
+[2025-05-19T04:28:46.597+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:46.597+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:28:46.620+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:46.620+0000] {dag.py:3722} INFO - Setting next_dagrun for clean_and_upload_housing_data to None, run_after=None
+[2025-05-19T04:28:46.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/clean_housing_data.py took 0.374 seconds

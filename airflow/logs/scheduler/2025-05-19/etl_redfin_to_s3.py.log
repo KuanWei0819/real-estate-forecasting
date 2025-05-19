@@ -2266,3 +2266,147 @@
 [2025-05-19T04:20:31.160+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:20:31.160+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-19T04:20:31.166+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:20:31.166+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
 [2025-05-19T04:20:31.173+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.076 seconds
+[2025-05-19T04:21:01.921+0000] {processor.py:157} INFO - Started process (PID=86223) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:21:01.922+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:21:01.923+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:01.922+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:21:01.925+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:21:01.961+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:21:01.965+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:21:01.980+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:01.979+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:21:01.988+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:01.987+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:21:01.997+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.077 seconds
+[2025-05-19T04:21:32.939+0000] {processor.py:157} INFO - Started process (PID=86254) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:21:32.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:21:32.940+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:32.940+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:21:32.950+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:21:32.994+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:21:32.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:21:33.010+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:33.010+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:21:33.015+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:21:33.015+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:21:33.024+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.087 seconds
+[2025-05-19T04:22:03.849+0000] {processor.py:157} INFO - Started process (PID=86285) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:22:03.851+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:22:03.851+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:03.851+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:22:03.853+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:22:03.893+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:22:03.896+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:22:03.909+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:03.908+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:22:03.914+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:03.914+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:22:03.922+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.075 seconds
+[2025-05-19T04:22:34.827+0000] {processor.py:157} INFO - Started process (PID=86316) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:22:34.828+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:22:34.829+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:34.829+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:22:34.832+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:22:34.868+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:22:34.872+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:22:34.883+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:34.883+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:22:34.889+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:22:34.889+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:22:34.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.071 seconds
+[2025-05-19T04:23:05.844+0000] {processor.py:157} INFO - Started process (PID=86347) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:23:05.845+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:23:05.846+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:05.846+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:23:05.848+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:23:05.882+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:23:05.885+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:23:05.898+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:05.898+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:23:05.911+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:05.910+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:23:05.922+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.081 seconds
+[2025-05-19T04:23:36.722+0000] {processor.py:157} INFO - Started process (PID=86378) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:23:36.723+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:23:36.723+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:36.723+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:23:36.725+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:23:36.761+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:23:36.764+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:23:36.780+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:36.780+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:23:36.787+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:23:36.787+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:23:36.796+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.077 seconds
+[2025-05-19T04:24:07.529+0000] {processor.py:157} INFO - Started process (PID=86409) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:24:07.530+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:24:07.530+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:07.530+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:24:07.532+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:24:07.567+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:24:07.571+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:24:07.584+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:07.584+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:24:07.589+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:07.589+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:24:07.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.070 seconds
+[2025-05-19T04:24:38.517+0000] {processor.py:157} INFO - Started process (PID=86440) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:24:38.519+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:24:38.519+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:38.519+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:24:38.521+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:24:38.555+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:24:38.559+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:24:38.572+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:38.572+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:24:38.578+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:24:38.578+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:24:38.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.073 seconds
+[2025-05-19T04:25:09.538+0000] {processor.py:157} INFO - Started process (PID=86471) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:25:09.539+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:25:09.539+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:09.539+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:25:09.541+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:25:09.576+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:25:09.580+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:25:09.592+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:09.592+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:25:09.598+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:09.598+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:25:09.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.070 seconds
+[2025-05-19T04:25:40.570+0000] {processor.py:157} INFO - Started process (PID=86502) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:25:40.570+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:25:40.571+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:40.571+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:25:40.573+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:25:40.611+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:25:40.615+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:25:40.630+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:40.630+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:25:40.636+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:25:40.636+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:25:40.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.086 seconds
+[2025-05-19T04:26:11.563+0000] {processor.py:157} INFO - Started process (PID=86533) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:26:11.564+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:26:11.564+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:11.564+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:26:11.566+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:26:11.601+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:26:11.604+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:26:11.617+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:11.617+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:26:11.623+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:11.623+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:26:11.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.070 seconds
+[2025-05-19T04:26:42.671+0000] {processor.py:157} INFO - Started process (PID=86564) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:26:42.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:26:42.673+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:42.672+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:26:42.674+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:26:42.712+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:26:42.717+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:26:42.739+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:42.739+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:26:42.756+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:26:42.756+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:26:42.768+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.099 seconds
+[2025-05-19T04:27:13.707+0000] {processor.py:157} INFO - Started process (PID=86595) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:27:13.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:27:13.708+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:13.708+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:27:13.710+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:27:13.746+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:27:13.750+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:27:13.762+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:13.761+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:27:13.766+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:13.766+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:27:13.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.069 seconds
+[2025-05-19T04:27:44.716+0000] {processor.py:157} INFO - Started process (PID=86626) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:27:44.717+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:27:44.718+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:44.718+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:27:44.720+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:27:44.760+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:27:44.764+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:27:44.777+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:44.777+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:27:44.783+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:27:44.783+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:27:44.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.081 seconds
+[2025-05-19T04:28:15.704+0000] {processor.py:157} INFO - Started process (PID=86657) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:28:15.705+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:28:15.706+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:15.706+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:28:15.708+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:28:15.747+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:28:15.750+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:28:15.763+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:15.763+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:28:15.769+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:15.769+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:28:15.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.076 seconds
+[2025-05-19T04:28:46.667+0000] {processor.py:157} INFO - Started process (PID=86688) to work on /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:28:46.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_redfin_to_s3.py for tasks to queue
+[2025-05-19T04:28:46.670+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:46.670+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:28:46.673+0000] {logging_mixin.py:154} INFO - ✅ DAG upload_local_to_s3.py loaded.
+[2025-05-19T04:28:46.711+0000] {logging_mixin.py:154} INFO - ✅ Successfully imported upload_file_to_s3
+[2025-05-19T04:28:46.715+0000] {processor.py:839} INFO - DAG(s) dict_keys(['upload_local_to_s3']) retrieved from /opt/airflow/dags/etl_redfin_to_s3.py
+[2025-05-19T04:28:46.728+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:46.728+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-19T04:28:46.736+0000] {logging_mixin.py:154} INFO - [2025-05-19T04:28:46.735+0000] {dag.py:3722} INFO - Setting next_dagrun for upload_local_to_s3 to None, run_after=None
+[2025-05-19T04:28:46.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_redfin_to_s3.py took 0.084 seconds
