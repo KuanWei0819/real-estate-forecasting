@@ -39,7 +39,7 @@ print("IAM identity being used:", sts.get_caller_identity())
 def load_model_from_s3():
     s3 = boto3.client("s3")
     bucket = "realestateforecasting"
-    key = "models/housing_price_model_latest.pkl"
+    key = "models/price_model.pkl"
     local_model_path = "/tmp/price_model.pkl"
 
     try:
